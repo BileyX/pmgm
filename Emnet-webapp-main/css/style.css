@@ -43,6 +43,7 @@
 html {
   font-family: sans-serif;
   line-height: 1.15;
+  scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
@@ -135,6 +136,7 @@ figure {
   margin: 0 0 1rem; }
 
 img {
+  max-width: 100%;
   vertical-align: middle;
   border-style: none; }
 
@@ -325,6 +327,11 @@ code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
+@media (max-width: 500) {
+  .container {
+    min-width: 480px;
+  }
+}
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
@@ -2420,12 +2427,69 @@ textarea.form-control {
 .about-author .desc h3 {
   font-size: 24px; }
 
+/* Changes */
+
+@media  (max-width: 500px){
+  .hero-wrap{
+    width: 100%;
+  }
+  .ftco-section{
+    width: 100%;
+  }
+}
+
+#Testimonial-main{
+  padding-top: 8rem;
+}
+
+#properties-main{
+  padding-top: 5rem;
+}
+
+#about-section{
+  height: 83vh;
+}
+
+.enclose{
+  padding-top: 3rem;
+}
+
+.mr-md-2{
+  height: 83vh;
+}
+
+.ml-md-2{
+  height: 83vh;
+}
+
+.pr-md-5{
+  height: 83vh;
+}
+
+.mb-4{
+  margin-top: -4rem;
+  margin-left: 7rem;
+}
+
+#contact-main{
+  height: 75vh;
+  padding-top: 8rem;
+  padding-bottom: 55rem;
+  margin-bottom: 5rem;
+}
+
+.col-md-12{
+  margin-top: 2rem;
+}
+
+/* END */
+
 .ftco-section {
   padding: 6em 0;
   position: relative; }
-  @media (max-width: 767.98px) {
-    .ftco-section {
-      padding: 6em 0; } }
+@media (max-width: 767.98px) {
+  .ftco-section {
+    padding: 6em 0; } }
 
 .ftco-no-pt {
   padding-top: 0; }
@@ -2436,6 +2500,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   padding: 7em 0;
+  height: 83vh;
   background: #0f101c; }
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
@@ -2790,11 +2855,11 @@ textarea.form-control {
     .ftco-counter .img {
       height: 400px;
       background-position: top center !important; } }
-
+/* Change */
 @media (min-width: 768px) {
   .ftco-counter .text.text-border {
-    border-right: 1px solid rgba(0, 0, 0, 0.07); } }
-
+    border-right: 1px solid rgba(255, 255, 255, 1); } }
+/* End */
 .ftco-counter .text strong.number {
   font-weight: 600;
   font-size: 50px;
