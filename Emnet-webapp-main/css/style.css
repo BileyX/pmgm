@@ -2429,6 +2429,12 @@ textarea.form-control {
 
 /* Changes */
 
+@media (max-width: 500px){
+  .foot{
+    height: fit-content;
+  }
+}
+
 #Testimonial-main{
   padding-top: 8rem;
 }
