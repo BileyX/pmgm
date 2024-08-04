@@ -2429,15 +2429,6 @@ textarea.form-control {
 
 /* Changes */
 
-@media  (max-width: 500px){
-  .hero-wrap{
-    width: 100%;
-  }
-  .ftco-section{
-    width: 100%;
-  }
-}
-
 #Testimonial-main{
   padding-top: 8rem;
 }
@@ -2446,9 +2437,9 @@ textarea.form-control {
   padding-top: 5rem;
 }
 
-#about-section{
+/* #about-section{
   height: 83vh;
-}
+} */
 
 .enclose{
   padding-top: 3rem;
