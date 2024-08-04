@@ -2446,18 +2446,18 @@ textarea.form-control {
 }
 
 .mr-md-2{
-  height: 83vh;
+  max-height: 83vh;
 }
 
 .ml-md-2{
-  height: 83vh;
+  max-height: 83vh;
 }
 
-.pr-md-5{
+/* .pr-md-5{
   height: 83vh;
-}
+} */
 
-.mb-4{
+.ch{
   margin-top: -4rem;
   margin-left: 7rem;
 }
